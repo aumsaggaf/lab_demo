@@ -3,6 +3,6 @@
         <node pkg="joy" type="joy_node" name="joy_node"  required="true" output="screen">
                 <param name="dev" type="string" value="$(arg joy_dev)" />
         </node>
-        <node pkg="lab_demo" type="setpoints_node_joystick.py" name="gripper"  required="true" output="screen">
+        <node pkg="lab_demo" type="setpoints_node_gamepad.py" name="gripper"  required="true" output="screen">
         </node>
 </launch>
